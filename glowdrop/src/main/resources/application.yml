@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: glowdrop
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+
+server:
+  port: ${PORT:8080} # Render Port: locally would be 8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info

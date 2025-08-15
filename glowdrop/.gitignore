@@ -1,0 +1,14 @@
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Gradle caches
+.gradle/
+build/
+
+# Logs
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
