@@ -12,7 +12,7 @@ public class HelloController {
     @GetMapping("/api/hello")
     public Map<String, Object> hello() {
         return Map.of(
-                "message", "Hello from Glowdrop API!",
+                "message", "cors enabled",
                 "time", Instant.now().toString()
         );
     }
